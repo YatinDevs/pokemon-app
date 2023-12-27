@@ -24,6 +24,7 @@ body {
 }
 
 body {
+  /* position: relative; */
   display: flex;
   background: #000;
   min-height: 100vh;
@@ -88,4 +89,76 @@ code {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+}
+
+.btn-rock {
+  background-image: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+}
+.btn-ghost {
+  background-image: linear-gradient(to top, #b7b7b8 0%, #e2ebf0 100%);
+}
+.btn-electric {
+  background-image: linear-gradient(120deg, #ff3700 0%, #ffd500 100%);
+}
+.btn-bug {
+  background-image: linear-gradient(120deg, #eab878 0%, #ce8c31 100%);
+}
+.btn-poison {
+  background-image: linear-gradient(120deg, #e168a7 0%, #bfd9fe 100%);
+}
+.btn-normal {
+  background-image: linear-gradient(120deg, #f6b2e8 0%, #edd7e8 100%);
+}
+.btn-fairy {
+  background-image: linear-gradient(
+    120deg,
+    #ff898d 0%,
+    #fcc4ea 99%,
+    #fecfef 100%
+  );
+}
+.btn-fire {
+  background-image: linear-gradient(120deg, #f2c83ca2 0%, #f17c5c 100%);
+}
+.btn-grass {
+  background-image: linear-gradient(120deg, #ace034 0%, #3bf154 100%);
+}
+.btn-water {
+  background-image: linear-gradient(120deg, #77ecf5 0%, #4592fd 100%);
+}
+.btn-ground {
+  background-image: linear-gradient(120deg, #813017 0%, #cd8843 74%);
+}
+
+.btn-electric:hover {
+  background-image: linear-gradient(320deg, #ff3700 0%, #ffd500 100%);
+}
+.btn-bug:hover {
+  background-image: linear-gradient(320deg, #eab878 0%, #ce8c31 100%);
+}
+.btn-poison:hover {
+  background-image: linear-gradient(320deg, #e168a7 0%, #bfd9fe 100%);
+}
+.btn-normal:hover {
+  background-image: linear-gradient(320deg, #f6b2e8 0%, #edd7e8 100%);
+}
+.btn-fairy:hover {
+  background-image: linear-gradient(
+    320deg,
+    #ff898d 0%,
+    #fcc4ea 99%,
+    #fecfef 100%
+  );
+}
+.btn-fire:hover {
+  background-image: linear-gradient(320deg, #f2c83ca2 0%, #f17c5c 100%);
+}
+.btn-grass:hover {
+  background-image: linear-gradient(320deg, #ace034 0%, #3bf154 100%);
+}
+.btn-water:hover {
+  background-image: linear-gradient(320deg, #77ecf5 0%, #4592fd 100%);
+}
+.btn-ground:hover {
+  background-image: linear-gradient(320deg, #813017 0%, #cd8843 74%);
 }

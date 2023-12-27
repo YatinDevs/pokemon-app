@@ -42,12 +42,12 @@ function Card({ name, url }) {
             Know more...
           </button>
         </div>
-        {showModal && (
-          <Modal>
-            <PokemonDetails handleModal={handleModal} {...pokemonDetails} />
-          </Modal>
-        )}
       </div>
+      {showModal && (
+        <Modal>
+          <PokemonDetails handleModal={handleModal} {...pokemonDetails} />
+        </Modal>
+      )}
     </>
   );
 }
